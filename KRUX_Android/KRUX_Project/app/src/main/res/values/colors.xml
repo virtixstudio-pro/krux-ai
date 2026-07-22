@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#090A0F</color>
+    <color name="panel_dark">#12141D</color>
+    <color name="neon_cyan">#00F5D4</color>
+    <color name="neon_purple">#7B2CBF</color>
+    <color name="neon_pink">#F72585</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_muted">#6C757D</color>
+</resources>

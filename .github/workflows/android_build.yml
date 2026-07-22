@@ -20,13 +20,10 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v3
-
-    - name: Build APK with Groq Secret
+    - name: Build APK with system Gradle and Groq Secret
       env:
         GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-      run: ./gradlew assembleDebug
+      run: gradle assembleDebug
 
     - name: Upload APK artifact
       uses: actions/upload-artifact@v4

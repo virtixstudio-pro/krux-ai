@@ -4,11 +4,24 @@
     android:layout_height="match_parent"
     android:background="@color/bg_dark"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="24dp">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Auth"
-        android:textColor="@color/text_white"
-        android:textSize="24sp" />
+        android:text="KRUX AUTH"
+        android:textColor="@color/neon_cyan"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="24dp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/neon_purple"
+        android:text="Entrer"
+        android:textColor="@color/text_white" />
+
 </LinearLayout>
